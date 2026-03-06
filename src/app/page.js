@@ -40,7 +40,7 @@ export default function CampaignPage() {
             src={heroImages[currentHeroImage]}
             className="w-full h-full object-cover opacity-40 transition-all duration-1000"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/50 to-transparent" />
         </div>
 
         <div className="container mx-auto px-8 relative z-10">

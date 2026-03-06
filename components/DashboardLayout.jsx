@@ -142,18 +142,25 @@ export default function DashboardLayout({ children, roleTitle }) {
       `}</style>
 
       {/* SIDEBAR */}
-      <aside className="hidden lg:flex w-80 bg-black flex-col fixed h-full z-50 shadow-2xl">
+      <aside className="hidden lg:flex w-80 bg-[#171515] flex-col fixed h-full z-50 shadow-2xl">
         {/* LOGO SECTION - Static */}
         <div className="p-10 pb-6">
-          <div className="flex items-center space-x-3 mb-6">
-            <div className="w-10 h-10 bg-[#D4AF37] rounded-xl flex items-center justify-center font-black text-black text-xl">
-              TO
+          <div className="flex items-center space-x-4 mb-8">
+            {/* 1. INCREASED SIZE & BOLD CONTRAST */}
+            <div className="w-16 h-16 bg-[#D4AF37] rounded-3xl overflow-hidden flex items-center justify-center shadow-[0_10px_40px_-10px_#D4AF3740] border-2 border-white/10 shrink-0">
+              <img
+                src="/images/wura-logo.png"
+                alt="Wura Didan Official Logo"
+                className="w-full h-full object-contain p-2 scale-110"
+              />
             </div>
+
+            {/* 2. MATCHING BOLD TYPOGRAPHY */}
             <div className="flex flex-col">
-              <span className="text-white font-black tracking-[0.2em] text-lg uppercase italic leading-none">
+              <span className="text-white font-black tracking-[0.2em] text-2xl uppercase italic leading-none">
                 WURA DIDAN
               </span>
-              <span className="text-[#D4AF37] text-[10px] font-bold uppercase tracking-widest mt-1 leading-none">
+              <span className="text-[#D4AF37] text-[11px] font-black uppercase tracking-[0.3em] mt-2 leading-none">
                 Osun-East Command
               </span>
             </div>
