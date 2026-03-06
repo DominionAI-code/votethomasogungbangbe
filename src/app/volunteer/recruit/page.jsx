@@ -6,7 +6,8 @@ import { useCampaignStore } from "@/lib/store";
 export default function VolunteerRecruitPage() {
   const { user } = useCampaignStore();
   // Ensure this points to your live domain when you go live
-  const signupUrl = "http://localhost:3000/public-site/supporters-signup";
+  const signupUrl =
+    "https://votethomasogungbangbe.vercel.app/public-site/supporters-signup";
 
   return (
     <DashboardLayout roleTitle="Field Growth">

@@ -4,7 +4,8 @@ import SignupQR from "@/components/SignupQR";
 
 export default function RecruitPage() {
   // Use your actual live domain if deployed, otherwise localhost for testing
-  const signupUrl = "http://localhost:3000/public-site/supporters-signup";
+  const signupUrl =
+    "https://votethomasogungbangbe.vercel.app/public-site/supporters-signup";
 
   return (
     <DashboardLayout roleTitle="Growth Command">
